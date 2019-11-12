@@ -249,5 +249,5 @@ font-weight: bold;
 }
 
 #displayQuote{
-  font-style: italic;
+  font-style: italic !important;
 }
