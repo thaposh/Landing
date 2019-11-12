@@ -35,6 +35,7 @@ function newQuote() {
 }
 function fbShare() {
     var quote = document.getElementById('displayQuote').innerText;
-    a.href = 'https://www.facebook.com/sharer/sharer.php?u=theapolloshow.com&display=popup&quote=' + quote;
+    window.open('https://www.facebook.com/sharer/sharer.php?u=theapolloshow.com&quote=' + quote, '_blank', 'width=500,height=500');
+    // a.href = 'https://www.facebook.com/sharer/sharer.php?u=theapolloshow.com&quote=' + quote;
 }
 /* https://twitter.com/intent/tweet?via=theapolloshow&text=You_are_amazing*/
