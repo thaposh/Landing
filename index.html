@@ -71,23 +71,14 @@
     <br>
     <button onclick="newQuote()">Another quote</button>
     <br>
+ <button onclick="newQuote()">Get Another Quote</button>
+    <a class="fb-share-btn" onclick="fbShare()">Share Quote On Facebook</a>
 
     <script src="app.js"></script>
-    <noscript>You need to enable JavaScript to view the full site.</noscript>
-
-    <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-    <script>(function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-
-    <!-- Your share button code -->
-    <div class="fb-share-button" data-href="http://theapolloshow.com" data-layout="button_count">
-    </div>
+    <script type="text/javascript">
+        document.write(newQuote());
+    </script>
+ <noscript>You need to enable JavaScript to view the full site.</noscript>
               
               
               <!-- Sign up for updates using the form below!</p>
