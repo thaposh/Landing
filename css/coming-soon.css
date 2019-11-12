@@ -127,8 +127,8 @@ video {
     transform-origin: top right;
   }
   .masthead .masthead-content {
-    padding-left: 3rem;
-    padding-right: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .masthead .masthead-content h1 {
     font-size: 3.5rem;
