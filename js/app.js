@@ -32,3 +32,8 @@ function newQuote() {
     document.getElementById('displayQuote').innerHTML = quotes[randomNum];
 
 }
+function fbShare() {
+    var quote = document.getElementById('displayQuote').innerText;
+    a.href = 'https://www.facebook.com/sharer/sharer.php?u=theapolloshow.com&display=popup&quote=' + quote;
+}
+/* https://twitter.com/intent/tweet?via=theapolloshow&text=You_are_amazing*/
