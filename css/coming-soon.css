@@ -247,3 +247,7 @@ display: inline-block;
 transition: all 0.3s ease 0s;
 font-weight: bold;
 }
+
+#displayQuote{
+  font-style: italic;
+}
