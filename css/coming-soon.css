@@ -121,7 +121,7 @@ video {
   }
   .masthead .masthead-bg {
     min-height: 0;
-    -webkit-transform: skewX(-8deg);
+    -webkit-transform: skewX(-7deg);
     transform: skewX(-8deg);
     -webkit-transform-origin: top right;
     transform-origin: top right;
