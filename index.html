@@ -16,6 +16,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="The Apollo Show">
   <meta name="author" content="Apollo">
+  <meta property="og:url" content="http://theapolloshow.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The Apollo Show" />
+    <meta property="og:description" content="Welcome to The Apollo Show featuring interviews with people and exploration of cultures from around the world. " />
+    <meta property="og:image" content="" />
 
   <title>The Apollo Show</title>
 
@@ -59,7 +64,33 @@
           <div class="masthead-content text-white py-5 py-md-0">
             <h1 class="mb-3">The Apollo Show... Coming Soon!</h1>
             <p class="mb-5">We're working hard to finish production of the show and development of this site.
-              <strong>Check back soon</strong>! <!-- Sign up for updates using the form below!</p>
+              <strong>Check back soon</strong>! </p>
+            <p>In the meantime, here's an inspirational quote:</p>
+            
+            <div id="displayQuote"></div>
+    <br>
+    <button onclick="newQuote()">Another quote</button>
+    <br>
+
+    <script src="app.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your share button code -->
+    <div class="fb-share-button" data-href="http://theapolloshow.com" data-layout="button_count">
+    </div>
+              
+              
+              <!-- Sign up for updates using the form below!</p>
             <div class="input-group input-group-newsletter">
               <input type="email" class="form-control" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="basic-addon">
               <div class="input-group-append">
