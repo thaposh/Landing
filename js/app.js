@@ -30,6 +30,7 @@ var quotes = [
 function newQuote() {
     var randomNum = Math.floor(Math.random() * (quotes.length))
     document.getElementById('displayQuote').innerHTML = quotes[randomNum];
+    return "";
 
 }
 function fbShare() {
