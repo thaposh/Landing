@@ -237,17 +237,18 @@ cursor: pointer;
 }
 
 .fb-share-btn{
-    color: #3b5998 !important; 
-background-color: #ffffff;
-text-transform: uppercase;
-padding: 20px;
-border: 4px solid  #3b5998 !important;
-border-radius: 6px;
-display: inline-block;
-transition: all 0.3s ease 0s;
-font-weight: bold;
+    color: #3b5998 !important;
+    border: 4px solid  #3b5998 !important;
 }
 
 #displayQuote{
   font-style: italic !important;
 }
+
+/*Accessibility*/
+button:focus, a:focus{
+    box-shadow: 0 0 2px 2px #51a7e8; /* keyboard-only focus styles */
+}
+.skipnav { text-align: left; }
+  .skipnav a { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+  .skipnav a:focus, .skipnav a:active { position: static; left: 0; width: auto; height: auto; overflow: visible; text-decoration: underline; }
