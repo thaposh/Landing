@@ -247,7 +247,7 @@ cursor: pointer;
 
 /*Accessibility*/
 button:focus, a:focus{
-    box-shadow: 0 0 2px 2px #51a7e8; /* keyboard-only focus styles */
+    box-shadow: 0 0 2px 2px #0000EE; /* keyboard-only focus styles */
 }
 .skipnav { text-align: left; }
   .skipnav a { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
